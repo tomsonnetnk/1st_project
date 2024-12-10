@@ -26,3 +26,15 @@ while True:
         print('Неверный ответ')
         incorrect += 1
 print()
+print('Домашнее задение. Загадка №3.')
+print('Сколько значений есть у bool?')
+while True:
+    s = input('Введите ответ и нажмите Enter: ')
+    if s.lower() == '2':
+        print('Ответ:', s, 'верен!')
+        correct += 1
+        break
+    else:
+        print('Неверный ответ')
+        incorrect += 1
+print()
