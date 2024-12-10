@@ -14,3 +14,15 @@ while True:
         print('Неверный ответ')
         incorrect += 1
 print()
+print('Домашнее задение. Загадка №2.')
+print('Какая кодировка используется в строках?')
+while True:
+    s = input('Введите ответ и нажмите Enter: ')
+    if s.lower() == 'utf8':
+        print('Ответ:', s, 'верен!')
+        correct += 1
+        break
+    else:
+        print('Неверный ответ')
+        incorrect += 1
+print()
